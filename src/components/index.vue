@@ -11,7 +11,8 @@
       <el-form-item label="密码">
         <el-input type="password" v-model="password" autocomplete="off" placeholder="请输入密码"></el-input>
       </el-form-item>
-      <el-button @click="cancel" size="small">取消</el-button>
+      <!-- master测试 -->
+      <!-- <el-button @click="cancel" size="small">取消</el-button> -->
       <el-button type="primary" @click="login" style="width:100%">登录</el-button>
     </el-form>
   </div>
